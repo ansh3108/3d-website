@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Top YouTube Channels</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+</head>
+
+<body>
+  <a-scene>
+    <!-- Top YouTube Channels -->
+    <a-entity position="-10 1 -15">
+      <a-plane color="#FF0000" height="3" width="4" position="0 0 0" material="shader: flat">
+        <a-text value="MrBeast" color="white" align="center" position="0 1 0" width="3"></a-text>
+        <a-image src="https://yt3.googleusercontent.com/fxGKYucJAVme-Yz4fsdCroCFCrANWqw0ql4GYuvx8Uq4l_euNJHgE-w9MTkLQA805vWCi-kE0g=s160-c-k-c0x00ffffff-no-rj" height="1.5" width="1.5" position="0 0 0.1"></a-image>
+        <a-text id="mrbeast-subs" value="Loading..." color="white" align="center" position="0 -1.2 0.1" width="3"></a-text>
+      </a-plane>
+      <a-plane color="#00FF00" height="3" width="4" position="5 0 0" material="shader: flat">
+        <a-text value="T-Series" color="white" align="center" position="0 1 0" width="3"></a-text>
+        <a-image src="https://yt3.ggpht.com/XE7Iq8jvJ07ptMc-HxZR_V-2XgXCb0i06i4E_dypl7xSR655WXaQeglfqNuEeuwH3oM9RKVodQ=s176-c-k-c0x00ffffff-no-rj-mo" height="1.5" width="1.5" position="0 0 0.1"></a-image>
+        <a-text id="tseries-subs" value="Loading..." color="white" align="center" position="0 -1.2 0.1" width="3"></a-text>
+      </a-plane>
+      <a-plane color="#0000FF" height="3" width="4" position="10 0 0" material="shader: flat">
+        <a-text value="Cocomelon" color="white" align="center" position="0 1 0" width="3"></a-text>
+        <a-image src="https://yt3.googleusercontent.com/ytc/AIdro_krpmS9ibNphtb9ouRc-kXIR_EaqXL5wSw_qNY9DgRO7c4=s160-c-k-c0x00ffffff-no-rj" height="1.5" width="1.5" position="0 0 0.1"></a-image>
+        <a-text id="cocomelon-subs" value="Loading..." color="white" align="center" position="0 -1.2 0.1" width="3"></a-text>
+      </a-plane>
+      <a-plane color="#800080" height="3" width="4" position="15 0 0" material="shader: flat">
+        <a-text value="SET India" color="white" align="center" position="0 1 0" width="3"></a-text>
+        <a-image src="https://yt3.ggpht.com/eu051krrRNQMMi5h6ynfnvhFJzxzSKulJQ42g5v72MQ9Bvv8KdpNIa6yM-0iGpnDgSF0itAD=s176-c-k-c0x00ffffff-no-rj-mo" height="1.5" width="1.5" position="0 0 0.1"></a-image>
+        <a-text id="setindia-subs" value="Loading..." color="white" align="center" position="0 -1.2 0.1" width="3"></a-text>
+      </a-plane>
+      <a-plane color="#FFA500" height="3" width="4" position="20 0 0" material="shader: flat">
+        <a-text value="Kids Diana Show" color="white" align="center" position="0 1 0" width="3"></a-text>
+        <a-image src="https://yt3.googleusercontent.com/ytc/AIdro_mkLi4AnLgi56q093k7qYwh81J6fW7qETa99Y_YuXpYjoc=s176-c-k-c0x00ffffff-no-rj-mo" height="1.5" width="1.5" position="0 0 0.1"></a-image>
+        <a-text id="kidsdiana-subs" value="Loading..." color="white" align="center" position="0 -1.2 0.1" width="3"></a-text>
+      </a-plane>
+    </a-entity>
+
+    <!-- Camera -->
+    <a-camera position="0 1.6 0">
+      <a-cursor></a-cursor>
+    </a-camera>
+  </a-scene>
+  <script src="script.js"></script>
+</body>
+
+</html>
